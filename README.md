@@ -5,10 +5,10 @@ Contexto: Uma empresa de construção precisa gerenciar seus projetos de obras. 
 
 Tarefas:
 1. Modele as classes **Projeto**, **Engenheiro**, **Operario**, **Equipamento** e **Material**, respeitando as seguintes relações:
-    - _Um projeto pode ter vários engenheiros e operários alocados.
-    - _Um engenheiro e um operário podem participar de vários projetos.
-    - _Um projeto pode utilizar vários equipamentos, e um equipamento pode ser utilizado em vários projetos.
-    - _Um projeto pode consumir vários materiais, e um material pode ser utilizado em vários projetos.
+    - Um projeto pode ter vários engenheiros e operários alocados.
+    - Um engenheiro e um operário podem participar de vários projetos.
+    - Um projeto pode utilizar vários equipamentos, e um equipamento pode ser utilizado em vários projetos.
+    - Um projeto pode consumir vários materiais, e um material pode ser utilizado em vários projetos.
 2. Implemente o padrão DAO para as classes **ProjetoDAO**, **EngenheiroDAO**, **OperarioDAO**, **EquipamentoDAO** e **MaterialDAO**, utilizando a API JDBC para realizar as operações de CRUD no banco de dados.
 3. Crie uma classe **ConexaoBD** que utiliza o padrão Singleton para gerenciar a conexão com o banco de dados.
 4. Implemente métodos nas classes DAO para:
